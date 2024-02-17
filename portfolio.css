@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    color: #fff;
+    padding: 0.8rem;
+}
+
+.header{
+height: 7rem;
+background-color:rgba(10, 8, 8, 0.87);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navigation{
+    margin: auto auto;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-right:4rem ;
+    text-decoration: none;
+    
+}
+    
+.main-nav-list:link,
+.main-nav-list:visited{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+
+}
+.main-nav-list:hover,
+.main-nav-list:active{
+    color: #f1f0f0;
+    font-weight: bold;
+    
+}
+.nav-icon{
+font-size: 2.2rem;
+padding-right: 0.4rem;
+font-weight: bold;
+color: rgb(89, 89, 247);
+}
+.hero{
+    background-image: linear-gradient(to right bottom,rgba(31, 31, 31, 0.518),rgba(245, 60, 60, 0.172)),
+     url(photo-portfolio.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 52rem;
+}
+.heading-span{
+    font-size:3.4rem ;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.heading-primary{
+    font-size: 5.2rem;
+    /* padding: 5rem; */
+    text-align: center;
+   
+    padding-top: 16rem;
+    animation-name: heading;
+    animation-timing-function: 2s;
+    animation-duration: 0.9s;
+    animation-iteration-count:1;
+
+}
+@keyframes heading{
+    0%{
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.heading-secondary{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -0.1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+    
+    
+
+    
+    
+    
+
+
+
+    
+
